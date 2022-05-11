@@ -1,0 +1,4 @@
+git+https://github.com/subinps/pyrogram@inline-m
+asyncio
+tgcrypto
+aria2p

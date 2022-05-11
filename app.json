@@ -1,0 +1,39 @@
+{
+  "name": "kritisanonn leecher",
+  "description": "A Telegram Leecher based on Pyrogram",
+  "keywords": [
+    "telegram",
+    "pyrogram",
+    "torrent",
+    "3",
+    "leecher"
+  ],
+  "website": "https://github.com/dr-qaatil/kritisanonn",
+  "repository": "https://github.com/dr-qaatil/kritisanonn",
+  "env": {
+    "API_ID": {
+      "description": "get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "get this value from @BotFather",
+      "value": ""
+    },
+    "BOT_PASSWORD": {
+      "description": "enter pasword or leave it public",
+      "value": "",
+      "required": false
+    }
+  },
+  "stack": "container",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
